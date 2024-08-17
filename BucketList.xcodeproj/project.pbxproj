@@ -14,6 +14,7 @@
 		5BF8B5E72C6FA4530084C5E7 /* CustomComparableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5E62C6FA4530084C5E7 /* CustomComparableView.swift */; };
 		5BF8B5E92C702E9C0084C5E7 /* WritingToDocsDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5E82C702E9C0084C5E7 /* WritingToDocsDirectoryView.swift */; };
 		5BF8B5EB2C7037BF0084C5E7 /* SwitchingEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5EA2C7037BF0084C5E7 /* SwitchingEnumView.swift */; };
+		5BF8B5ED2C70515D0084C5E7 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5EC2C70515D0084C5E7 /* MapKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		5BF8B5E62C6FA4530084C5E7 /* CustomComparableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComparableView.swift; sourceTree = "<group>"; };
 		5BF8B5E82C702E9C0084C5E7 /* WritingToDocsDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingToDocsDirectoryView.swift; sourceTree = "<group>"; };
 		5BF8B5EA2C7037BF0084C5E7 /* SwitchingEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingEnumView.swift; sourceTree = "<group>"; };
+		5BF8B5EC2C70515D0084C5E7 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				5BF8B5E62C6FA4530084C5E7 /* CustomComparableView.swift */,
 				5BF8B5E82C702E9C0084C5E7 /* WritingToDocsDirectoryView.swift */,
 				5BF8B5EA2C7037BF0084C5E7 /* SwitchingEnumView.swift */,
+				5BF8B5EC2C70515D0084C5E7 /* MapKitView.swift */,
 			);
 			path = Snippets;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF8B5ED2C70515D0084C5E7 /* MapKitView.swift in Sources */,
 				5BF8B5E72C6FA4530084C5E7 /* CustomComparableView.swift in Sources */,
 				5BF8B5DA2C6FA2DA0084C5E7 /* ContentView.swift in Sources */,
 				5BF8B5EB2C7037BF0084C5E7 /* SwitchingEnumView.swift in Sources */,
