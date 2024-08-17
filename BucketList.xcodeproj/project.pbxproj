@@ -18,6 +18,7 @@
 		5BF8B5EF2C7058270084C5E7 /* MapKitView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5EE2C7058270084C5E7 /* MapKitView2.swift */; };
 		5BF8B5F12C705C0A0084C5E7 /* MapKitTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5F02C705C0A0084C5E7 /* MapKitTapView.swift */; };
 		5BF8B5F32C7159540084C5E7 /* LocalAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5F22C7159540084C5E7 /* LocalAuthView.swift */; };
+		5BF8B5F52C7166A50084C5E7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5F42C7166A50084C5E7 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5BF8B5EE2C7058270084C5E7 /* MapKitView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView2.swift; sourceTree = "<group>"; };
 		5BF8B5F02C705C0A0084C5E7 /* MapKitTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitTapView.swift; sourceTree = "<group>"; };
 		5BF8B5F22C7159540084C5E7 /* LocalAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthView.swift; sourceTree = "<group>"; };
+		5BF8B5F42C7166A50084C5E7 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		5BF8B5D62C6FA2DA0084C5E7 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				5BF8B5F42C7166A50084C5E7 /* Location.swift */,
 				5BF8B5DB2C6FA2DB0084C5E7 /* Assets.xcassets */,
 				5BF8B5D72C6FA2DA0084C5E7 /* BucketListApp.swift */,
 				5BF8B5D92C6FA2DA0084C5E7 /* ContentView.swift */,
@@ -168,6 +171,7 @@
 			files = (
 				5BF8B5ED2C70515D0084C5E7 /* MapKitView.swift in Sources */,
 				5BF8B5EF2C7058270084C5E7 /* MapKitView2.swift in Sources */,
+				5BF8B5F52C7166A50084C5E7 /* Location.swift in Sources */,
 				5BF8B5E72C6FA4530084C5E7 /* CustomComparableView.swift in Sources */,
 				5BF8B5DA2C6FA2DA0084C5E7 /* ContentView.swift in Sources */,
 				5BF8B5F12C705C0A0084C5E7 /* MapKitTapView.swift in Sources */,
