@@ -16,6 +16,7 @@
 		5BF8B5EB2C7037BF0084C5E7 /* SwitchingEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5EA2C7037BF0084C5E7 /* SwitchingEnumView.swift */; };
 		5BF8B5ED2C70515D0084C5E7 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5EC2C70515D0084C5E7 /* MapKitView.swift */; };
 		5BF8B5EF2C7058270084C5E7 /* MapKitView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5EE2C7058270084C5E7 /* MapKitView2.swift */; };
+		5BF8B5F12C705C0A0084C5E7 /* MapKitTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5F02C705C0A0084C5E7 /* MapKitTapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		5BF8B5EA2C7037BF0084C5E7 /* SwitchingEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingEnumView.swift; sourceTree = "<group>"; };
 		5BF8B5EC2C70515D0084C5E7 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
 		5BF8B5EE2C7058270084C5E7 /* MapKitView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView2.swift; sourceTree = "<group>"; };
+		5BF8B5F02C705C0A0084C5E7 /* MapKitTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitTapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				5BF8B5EA2C7037BF0084C5E7 /* SwitchingEnumView.swift */,
 				5BF8B5EC2C70515D0084C5E7 /* MapKitView.swift */,
 				5BF8B5EE2C7058270084C5E7 /* MapKitView2.swift */,
+				5BF8B5F02C705C0A0084C5E7 /* MapKitTapView.swift */,
 			);
 			path = Snippets;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				5BF8B5EF2C7058270084C5E7 /* MapKitView2.swift in Sources */,
 				5BF8B5E72C6FA4530084C5E7 /* CustomComparableView.swift in Sources */,
 				5BF8B5DA2C6FA2DA0084C5E7 /* ContentView.swift in Sources */,
+				5BF8B5F12C705C0A0084C5E7 /* MapKitTapView.swift in Sources */,
 				5BF8B5EB2C7037BF0084C5E7 /* SwitchingEnumView.swift in Sources */,
 				5BF8B5E92C702E9C0084C5E7 /* WritingToDocsDirectoryView.swift in Sources */,
 				5BF8B5D82C6FA2DA0084C5E7 /* BucketListApp.swift in Sources */,
