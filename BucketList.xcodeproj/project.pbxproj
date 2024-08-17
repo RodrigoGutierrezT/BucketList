@@ -17,6 +17,7 @@
 		5BF8B5ED2C70515D0084C5E7 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5EC2C70515D0084C5E7 /* MapKitView.swift */; };
 		5BF8B5EF2C7058270084C5E7 /* MapKitView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5EE2C7058270084C5E7 /* MapKitView2.swift */; };
 		5BF8B5F12C705C0A0084C5E7 /* MapKitTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5F02C705C0A0084C5E7 /* MapKitTapView.swift */; };
+		5BF8B5F32C7159540084C5E7 /* LocalAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5F22C7159540084C5E7 /* LocalAuthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		5BF8B5EC2C70515D0084C5E7 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
 		5BF8B5EE2C7058270084C5E7 /* MapKitView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView2.swift; sourceTree = "<group>"; };
 		5BF8B5F02C705C0A0084C5E7 /* MapKitTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitTapView.swift; sourceTree = "<group>"; };
+		5BF8B5F22C7159540084C5E7 /* LocalAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				5BF8B5EC2C70515D0084C5E7 /* MapKitView.swift */,
 				5BF8B5EE2C7058270084C5E7 /* MapKitView2.swift */,
 				5BF8B5F02C705C0A0084C5E7 /* MapKitTapView.swift */,
+				5BF8B5F22C7159540084C5E7 /* LocalAuthView.swift */,
 			);
 			path = Snippets;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				5BF8B5EB2C7037BF0084C5E7 /* SwitchingEnumView.swift in Sources */,
 				5BF8B5E92C702E9C0084C5E7 /* WritingToDocsDirectoryView.swift in Sources */,
 				5BF8B5D82C6FA2DA0084C5E7 /* BucketListApp.swift in Sources */,
+				5BF8B5F32C7159540084C5E7 /* LocalAuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +311,7 @@
 				DEVELOPMENT_TEAM = XQT4XJ3N79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,6 +341,7 @@
 				DEVELOPMENT_TEAM = XQT4XJ3N79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
