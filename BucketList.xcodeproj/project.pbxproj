@@ -13,6 +13,7 @@
 		5BF8B5DF2C6FA2DB0084C5E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF8B5DE2C6FA2DB0084C5E7 /* Preview Assets.xcassets */; };
 		5BF8B5E72C6FA4530084C5E7 /* CustomComparableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5E62C6FA4530084C5E7 /* CustomComparableView.swift */; };
 		5BF8B5E92C702E9C0084C5E7 /* WritingToDocsDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5E82C702E9C0084C5E7 /* WritingToDocsDirectoryView.swift */; };
+		5BF8B5EB2C7037BF0084C5E7 /* SwitchingEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5EA2C7037BF0084C5E7 /* SwitchingEnumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5BF8B5DE2C6FA2DB0084C5E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BF8B5E62C6FA4530084C5E7 /* CustomComparableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComparableView.swift; sourceTree = "<group>"; };
 		5BF8B5E82C702E9C0084C5E7 /* WritingToDocsDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingToDocsDirectoryView.swift; sourceTree = "<group>"; };
+		5BF8B5EA2C7037BF0084C5E7 /* SwitchingEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingEnumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				5BF8B5E62C6FA4530084C5E7 /* CustomComparableView.swift */,
 				5BF8B5E82C702E9C0084C5E7 /* WritingToDocsDirectoryView.swift */,
+				5BF8B5EA2C7037BF0084C5E7 /* SwitchingEnumView.swift */,
 			);
 			path = Snippets;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				5BF8B5E72C6FA4530084C5E7 /* CustomComparableView.swift in Sources */,
 				5BF8B5DA2C6FA2DA0084C5E7 /* ContentView.swift in Sources */,
+				5BF8B5EB2C7037BF0084C5E7 /* SwitchingEnumView.swift in Sources */,
 				5BF8B5E92C702E9C0084C5E7 /* WritingToDocsDirectoryView.swift in Sources */,
 				5BF8B5D82C6FA2DA0084C5E7 /* BucketListApp.swift in Sources */,
 			);
