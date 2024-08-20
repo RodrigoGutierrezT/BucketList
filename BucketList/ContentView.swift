@@ -17,10 +17,12 @@ struct ContentView: View {
     )
     
     @State private var viewModel = ViewModel()
+    @State private var toggleStyle = false
+    @State private var style: MapStyle = .standard
     
     var body: some View {
         
-        if viewModel.isUnlocked {
+        if viewModel.isUnlocked == false {
             MapReader { proxy in
                 Map(initialPosition: startPosition) {
                     ForEach(viewModel.locations) { location in
@@ -37,6 +39,7 @@ struct ContentView: View {
                         }
                     }
                 }
+                .mapStyle(style)
                 .onTapGesture { position in
                     if let coordinate = proxy.convert(position, from: .local) {
                         viewModel.addLocation(at: coordinate)
@@ -48,6 +51,21 @@ struct ContentView: View {
                     }
                 }
             }
+            
+            HStack {
+                if toggleStyle == false {
+                    Button("Hybrid mode") {
+                        style = .hybrid
+                        toggleStyle.toggle()
+                    }
+                } else {
+                    Button("Standard mode") {
+                        style = .standard
+                        toggleStyle.toggle()
+                    }
+                }
+            }
+            
         } else {
             Button("Unlock device", action: viewModel.authenticate)
                 .padding()
