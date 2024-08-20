@@ -22,7 +22,7 @@ struct ContentView: View {
     
     var body: some View {
         
-        if viewModel.isUnlocked == false {
+        if viewModel.isUnlocked {
             MapReader { proxy in
                 Map(initialPosition: startPosition) {
                     ForEach(viewModel.locations) { location in
@@ -53,17 +53,10 @@ struct ContentView: View {
             }
             
             HStack {
-                if toggleStyle == false {
-                    Button("Hybrid mode") {
-                        style = .hybrid
+                Button(toggleStyle ? "Standard mode" : "Hybrid mode") {
+                        style = toggleStyle ? .standard : .hybrid
                         toggleStyle.toggle()
                     }
-                } else {
-                    Button("Standard mode") {
-                        style = .standard
-                        toggleStyle.toggle()
-                    }
-                }
             }
             
         } else {
