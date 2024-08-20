@@ -17,6 +17,7 @@ extension ContentView {
         var selectedPlace: Location?
         
         var isUnlocked = false
+        var authError = false
         
         let savePath = URL.documentsDirectory.appending(path: "SavedPlaces")
         
@@ -54,6 +55,7 @@ extension ContentView {
         }
         
         func authenticate() {
+            self.authError = false
             let context = LAContext()
             var error: NSError?
             
@@ -65,11 +67,11 @@ extension ContentView {
                     if success {
                         self.isUnlocked = true
                     } else {
-                        //error
+                        self.authError = true
                     }
                 }
             } else {
-                // no biometric
+                self.authError = true
             }
         }
     }

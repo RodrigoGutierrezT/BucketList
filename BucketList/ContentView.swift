@@ -60,11 +60,19 @@ struct ContentView: View {
             }
             
         } else {
-            Button("Unlock device", action: viewModel.authenticate)
-                .padding()
-                .background(.blue)
-                .foregroundStyle(.white)
-                .clipShape(.capsule)
+            VStack {
+                Button("Unlock device", action: viewModel.authenticate)
+                    .padding()
+                    .background(.blue)
+                    .foregroundStyle(.white)
+                    .clipShape(.capsule)
+            }
+            .alert(isPresented: $viewModel.authError) {
+                Alert(
+                    title: Text("Auth Failed"),
+                    message: Text("Failed on Biometric authentication")
+                )
+            }
         }
     }
 }
