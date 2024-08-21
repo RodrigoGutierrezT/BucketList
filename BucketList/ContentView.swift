@@ -54,20 +54,22 @@ struct ContentView: View {
             
             HStack {
                 Button(toggleStyle ? "Standard mode" : "Hybrid mode") {
-                        style = toggleStyle ? .standard : .hybrid
-                        toggleStyle.toggle()
-                    }
+                    style = toggleStyle ? .standard : .hybrid
+                    toggleStyle.toggle()
+                }
             }
             
         } else {
-            VStack {
-                Button("Unlock device", action: viewModel.authenticate)
-                    .padding()
-                    .background(.blue)
-                    .foregroundStyle(.white)
-                    .clipShape(.capsule)
+            Button("Unlock device") {
+                Task {
+                    await viewModel.authenticate()
+                }
             }
-            .alert(isPresented: $viewModel.authError) {
+            .padding()
+            .background(.blue)
+            .foregroundStyle(.white)
+            .clipShape(.capsule)
+            .alert(isPresented: $viewModel.alertShown) {
                 Alert(
                     title: Text("Auth Failed"),
                     message: Text("Failed on Biometric authentication")

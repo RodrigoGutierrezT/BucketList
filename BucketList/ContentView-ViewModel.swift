@@ -17,7 +17,9 @@ extension ContentView {
         var selectedPlace: Location?
         
         var isUnlocked = false
-        var authError = false
+        var alertShown = false
+        var alertTitle = "Error"
+        var alertMessage = ""
         
         let savePath = URL.documentsDirectory.appending(path: "SavedPlaces")
         
@@ -54,24 +56,27 @@ extension ContentView {
             }
         }
         
-        func authenticate() {
-            self.authError = false
+        func authenticate() async {
             let context = LAContext()
             var error: NSError?
             
             if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
                 let reason = "Please authenticate yourself to unlock places."
                 
-                context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
-                    
+                do {
+                    let success = try await context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason)
                     if success {
                         self.isUnlocked = true
-                    } else {
-                        self.authError = true
                     }
+                } catch( let error) {
+                    alertMessage = error.localizedDescription
+                    alertShown.toggle()
                 }
             } else {
-                self.authError = true
+                if let error = error {
+                    alertMessage = error.localizedDescription
+                    alertShown.toggle()
+                }
             }
         }
     }
