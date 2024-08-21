@@ -22,6 +22,7 @@
 		5BF8B5F72C7266860084C5E7 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5F62C7266860084C5E7 /* EditView.swift */; };
 		5BF8B5F92C726D7A0084C5E7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5F82C726D7A0084C5E7 /* Result.swift */; };
 		5BF8B5FB2C7293E40084C5E7 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5FA2C7293E40084C5E7 /* ContentView-ViewModel.swift */; };
+		5BF8B5FD2C7561CA0084C5E7 /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B5FC2C7561CA0084C5E7 /* EditView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		5BF8B5F62C7266860084C5E7 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		5BF8B5F82C726D7A0084C5E7 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		5BF8B5FA2C7293E40084C5E7 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		5BF8B5FC2C7561CA0084C5E7 /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				5BF8B5DB2C6FA2DB0084C5E7 /* Assets.xcassets */,
 				5BF8B5D72C6FA2DA0084C5E7 /* BucketListApp.swift */,
 				5BF8B5D92C6FA2DA0084C5E7 /* ContentView.swift */,
+				5BF8B5FC2C7561CA0084C5E7 /* EditView-ViewModel.swift */,
 				5BF8B5FA2C7293E40084C5E7 /* ContentView-ViewModel.swift */,
 				5BF8B5F82C726D7A0084C5E7 /* Result.swift */,
 				5BF8B5F62C7266860084C5E7 /* EditView.swift */,
@@ -181,6 +184,7 @@
 				5BF8B5ED2C70515D0084C5E7 /* MapKitView.swift in Sources */,
 				5BF8B5EF2C7058270084C5E7 /* MapKitView2.swift in Sources */,
 				5BF8B5F72C7266860084C5E7 /* EditView.swift in Sources */,
+				5BF8B5FD2C7561CA0084C5E7 /* EditView-ViewModel.swift in Sources */,
 				5BF8B5FB2C7293E40084C5E7 /* ContentView-ViewModel.swift in Sources */,
 				5BF8B5F52C7166A50084C5E7 /* Location.swift in Sources */,
 				5BF8B5E72C6FA4530084C5E7 /* CustomComparableView.swift in Sources */,
